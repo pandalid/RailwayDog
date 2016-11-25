@@ -1,5 +1,5 @@
 import itchat
-from itchat import *
+from itchat.content import *
 
 @itchat.msg_register(TEXT)
 def replay(msg):
